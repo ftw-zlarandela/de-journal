@@ -1,0 +1,41 @@
+# Journal — 2025-09-13 — EXAMPLE DAY
+
+## 1) What I learned (bullets, not prose)
+- Talk through your pipeline (i.e. Ingest to raw, move into clean, move into mart)
+- 1. Sandbox, 2. DLT Script, 3. DBT Script
+- Focus on the pipeline, instead of the analysis
+- 
+
+## 2) New vocabulary (define in your own words)
+- **term** — my definition
+- 
+
+## 3) Data Engineering mindset applied (what principles did I use?)
+- Move data once!
+
+## 4) Decisions & assumptions (why, alternatives, trade-offs)
+- For an example exercise, I did X, because of Y
+
+## 5) Open questions (things I still don’t get)
+- When to create Views vs Table
+-
+
+## 6) Next actions (small, doable steps)
+- 
+- Study/read Shi's guide on using datasets from other sources besides Clickhouse
+- Read further on Terminal
+
+## 7) Artifacts & links (code, queries, dashboards)
+- https://dataengineering.ph/
+
+---
+
+### Mini reflection (3–5 sentences)
+What surprised me? What would I do differently next time? What will I watch out for in production?
+
+I'm surprised at how cool git is!
+
+
+### BONUS: What is a meme that best describes what you feel or your learning today?
+
+![Alt text](../assets/meme.png " ")

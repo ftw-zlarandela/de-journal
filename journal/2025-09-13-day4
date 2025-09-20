@@ -1,0 +1,42 @@
+# Journal — {{DATE}} — {{TOPIC OR DAY N}}
+
+## 1) What I learned (bullets, not prose)
+- More in-depth comparison between the different data careers
+- The main objective of data engineers
+- ETL vs ELT
+- OLAP vs OTLP
+- Metabase
+
+## 2) New vocabulary (define in your own words)
+- ETL (Extract Transform Load) - processing the data before storing/using
+- ELT (Extract Load Transform) - storing the data, then processing it
+- dlt (data load tool) - Python library for moving data
+- OLAP - database good for long-term storage and can be queried but slow to write
+- OLTP - database good for day-to-day transactions but inefficient long-term
+
+## 3) Data Engineering mindset applied (what principles did I use?)
+- Always make a copy before changing something
+
+## 4) Decisions & assumptions (why, alternatives, trade-offs)
+- While querying for the missing values in horsepower, I tried several ways to determine what exactly happened
+- Checking for the row differences is faster but identifying and checking the exact entries may help in other circumstances
+
+## 5) Open questions (things I still don’t get)
+- Setting things up :(
+- Why my AutoMPG dataset only has some 300 rows, but others have 700+
+
+## 6) Next actions (small, doable steps)
+- Figure out the Github Learning Journal
+- Try the setting things up again
+- Finish the DataCamp homeworks
+
+## 7) Artifacts & links (code, queries, dashboards)
+- http://localhost:3001/dashboard/2-auto-mpg
+
+---
+
+### Mini reflection (3–5 sentences)
+Really had trouble with the initial stage of setting things up. Next time, I'll make sure that the environments are working correctly, and try to find some other preliminary video that may further help me in the lessons. In production, I think validating and cleaning your data really is the most crucial part as the whole process is dependent on the data you use.
+
+### BONUS: What is a meme that best describes what you feel or your learning today?
+![Alt text] (https://www.youtube.com/watch?v=91WjDt38PNY "now I know")
