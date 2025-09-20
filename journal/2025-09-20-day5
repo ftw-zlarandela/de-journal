@@ -2,40 +2,47 @@
 
 ## 1) What I learned (bullets, not prose)
 - Talk through your pipeline (i.e. Ingest to raw, move into clean, move into mart)
-- 1. Sandbox, 2. DLT Script, 3. DBT Script
+- 1. Sandbox, 2. DLT Script, 3. dbt Script
 - Focus on the pipeline, instead of the analysis
-- 
+- e.g. for Music Business: End-to-End Workflow includes Catalog Management, Customer Engagement, Sales Transactions, Business Insights
+- 1NF: Atomicity, no repeating group; 2NF: No partial dependencies; 3NF: No transitive dependencies
 
 ## 2) New vocabulary (define in your own words)
-- **term** — my definition
-- 
+- Unit test - test within machine
+- System test - test within server
+- Schema (in terms of data) - aggregation of relational tables
+- .yml = Yet another Markup Language
+- Atomicity - at the lowest level, no group or lists, a "grain"
 
 ## 3) Data Engineering mindset applied (what principles did I use?)
-- Move data once!
+- Explore the data
+- Document, and make a copy
 
 ## 4) Decisions & assumptions (why, alternatives, trade-offs)
-- For an example exercise, I did X, because of Y
+- For the sample exercise, I used simply joins as the data is still limited enough for me not to think so much on the join to use, etc.
+- 
 
 ## 5) Open questions (things I still don’t get)
 - When to create Views vs Table
--
+- The DLT and dbt setup for local and remote, like when to do and what to do from scratch, but not really an urgent question
 
 ## 6) Next actions (small, doable steps)
-- 
+- Meet with group
+- Finish assignment
 - Study/read Shi's guide on using datasets from other sources besides Clickhouse
 - Read further on Terminal
 
 ## 7) Artifacts & links (code, queries, dashboards)
-- https://dataengineering.ph/
+- 
 
 ---
 
 ### Mini reflection (3–5 sentences)
 What surprised me? What would I do differently next time? What will I watch out for in production?
 
-I'm surprised at how cool git is!
+
 
 
 ### BONUS: What is a meme that best describes what you feel or your learning today?
 
-![Alt text](../assets/meme.png " ")
+![Alt text](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc5174b5-a9ed-478b-949f-a9a9fef522f3_500x567.jpeg "problem for future me")
