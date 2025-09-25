@@ -16,7 +16,7 @@
 
 ## 3) Data Engineering mindset applied (what principles did I use?)
 - Explore the data
-- Document, and make a copy
+- Always document, and make a copy before modifying
 
 ## 4) Decisions & assumptions (why, alternatives, trade-offs)
 - For the sample exercise, I used simply joins as the data is still limited enough for me not to think so much on the join to use, etc.
@@ -40,7 +40,7 @@
 ### Mini reflection (3–5 sentences)
 What surprised me? What would I do differently next time? What will I watch out for in production?
 
-
+Because of the lesson last week, today went a lot smoother in terms of setting up the remote database. Although the process for normalization and producing the database was already discussed in the DataCamp, I found it much easier to understand through Sir Myk's teaching and the live example. I was kind of surprised with how I was able to complete the one exercise, and I hope that I'll be able to further improve my skills and understanding of SQL and the practical applications.  For the assignment, I'll definitely try to start the process from the top just to make sure that I understood what was discussed.
 
 
 ### BONUS: What is a meme that best describes what you feel or your learning today?
